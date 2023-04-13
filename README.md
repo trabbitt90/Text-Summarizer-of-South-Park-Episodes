@@ -145,15 +145,13 @@ Averaging all of the above ROUGE scores we get a score of 0.11. This isn't great
 ## Conclusion
 In this project, we explored different avenues of text summarization. We began with Gensim's TextRank algorithm, trained our sequence-2-sequence model from scratch and then went on to use a state-of-the-art model like Facebook's BART. The goal of this project was to attempt to create a Sequence-to-Seqence model that can provide text summarizations of South Park episodes. Attempting to create such a model is always a good practice when it comes to understanding certain concepts of NLP and neural networks. Having said that it is hard to compete with the pre-trained models available on [Hugging Face Transformers](https://huggingface.co/docs/transformers/index). 
 
-Recommendations:
+# Recommendations
 
-* Attempting to build your Sequence-2-Sequence model from scratch for text summarization that is specific to South Park is very limiting. Incorporating additional dialogue from other texts and TV shows would help to produce a more useful model for our business case. 
-
+* Use Facebook's BART for episode summarization, this was our best-performing model. When you consider the streamlined implementation and the abstract, grammatically correct, and concise summaries it produced it is a no-brainer. 
 
 * Transformers provides APIs and tools to easily download and train state-of-the-art pre-trained models. Using these pre-trained models can reduce your computing costs, and carbon footprint, and save you the time and resources required to train a model from scratch. 
 
-
-* Fine-tune a pre-trained model on a large corpus of dialogue and save it for future use. This will allow you to produce summaries quickly as new episodes are written.
+* Do not make a model that is trained specifically on South Park texts. Incorporating additional texts and TV show dialogues will produce better summarization model capabilities.
 
 
 # Limitations and Future Analysis
