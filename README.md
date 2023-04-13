@@ -1,4 +1,4 @@
-![image.png](attachment:image.png)
+![image](https://user-images.githubusercontent.com/100429663/231789102-9ce1b9a2-cddc-42dc-9be3-96755ce9f169.png)
 
 # Extractive and Abstractive Text Summarization of South Park Episodes
 By: Tim Rabbitt
@@ -33,15 +33,15 @@ For more information on the datasets and the sources behind them please visit th
 
 ## Eploratory Data Analysis
 
-![image.png](attachment:image.png)
+![image](https://user-images.githubusercontent.com/100429663/231789683-275d68d3-9cc5-4f26-81b9-9567755442fe.png)
 
 If you are familiar with the show we can see that the usual suspects such as Cartman, Stan, and Kyle have the lion's share of the dialogue in the show. The Scene Description character has the second most lines, this makes sense as that character is used to describe the setting throughout each episode.
 
-![image-2.png](attachment:image-2.png)
+![image](https://user-images.githubusercontent.com/100429663/231789793-2ce422f5-a31e-47cd-8b42-b5090a6487ee.png)
 
 Characters such as **Cartman**, **Stan**, and **Kyle** dominate the text. Considering the text mainly consists of a dialogue between those characters this makes a lot of sense. Frequent words such as **going**, **boy**, **walk** and **kid** could be attributed to the scene description "character" in the text.
 
-![image-3.png](attachment:image-3.png) 
+![image](https://user-images.githubusercontent.com/100429663/231789850-cd14b5d8-032b-428b-8c89-223fa51b2ce9.png)
 
 While there are certainly similarities between the text and the summary corpus and their respective word frequencies (characters are again very prevalent), we see more narrative vocabulary in the summary text. Words such as **south**, **park**, **meanwhile**, and **elementary** are examples of this narrative vocabulary.
 
@@ -78,7 +78,7 @@ Mr. Garrison's Bed. He hears ***Kathie Lee*** singing in his head: "If they coul
 
 ### Results:
 
-![image.png](attachment:image.png)
+![image](https://user-images.githubusercontent.com/100429663/231789913-4c9f4d3d-0556-4a85-834e-b36854c55928.png)
 
 * Average ROUGE-1 score for TextRank is: 0.13
 
@@ -105,7 +105,7 @@ town call child ***boy*** caught
 
 ### Results:
 
-![image.png](attachment:image.png)
+![image](https://user-images.githubusercontent.com/100429663/231790000-ab2f2138-a079-403f-8288-779261fa2bbb.png)
 
 * Average ROUGE-1 score for Model is: 0.07
 
@@ -131,7 +131,7 @@ The South Park Cows Elementary School ***Dodgeball*** Team is going to the natio
 
 ### Results:
 
-![image.png](attachment:image.png)
+![image](https://user-images.githubusercontent.com/100429663/231790046-dba0fbc8-35ee-4a59-aaa2-35e7a85674f7.png)
 
 * The average Rouge-1 score for BART is: 0.16
 
